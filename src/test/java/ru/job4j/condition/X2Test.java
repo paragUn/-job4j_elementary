@@ -3,7 +3,6 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.Test;
 
-@SuppressWarnings("checkstyle:EmptyLineSeparator")
 public class X2Test {
 
     @Test
