@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class ChessBoardTest {
-
     @Test
     public void wayIs5() {
         int x1 = 6;

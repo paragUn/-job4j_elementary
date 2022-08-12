@@ -2,12 +2,12 @@ package ru.job4j.array;
 
 public class MatrixSum {
     public static int sum(int[][] array) {
-        int rsl = 0;
+        int result = 0;
         for (int[] currentArray : array) {
             for (int currentNum : currentArray) {
-                rsl += currentNum;
+                result += currentNum;
             }
         }
-        return rsl;
+        return result;
     }
 }

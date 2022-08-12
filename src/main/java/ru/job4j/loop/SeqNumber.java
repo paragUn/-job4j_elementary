@@ -7,16 +7,16 @@ public class SeqNumber {
         calc(3);
     }
 
-    public static void calc(int n) {
+    public static void calc(int number) {
         int hold = 0;
-        for (int index = 1; index <= n; index++) {
+        for (int index = 1; index <= number; index++) {
             hold += index;
             System.out.println(hold);
-            if (hold == n) {
-                System.out.println("N = " + n + ". Success");
+            if (hold == number) {
+                System.out.println("N = " + number + ". Success");
                 break;
-            } else if (hold > n) {
-                System.out.println("N = " + n + ". Not possible");
+            } else if (hold > number) {
+                System.out.println("N = " + number + ". Not possible");
                 break;
             }
         }

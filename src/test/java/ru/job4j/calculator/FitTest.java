@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.Assert;
 
 public class FitTest {
-
     @Test
     public void whenMan180Then92() {
         short in = 180;
