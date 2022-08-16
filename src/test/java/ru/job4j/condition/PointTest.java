@@ -30,4 +30,22 @@ public class PointTest {
         double out = point1.distance(point2);
         Assert.assertEquals(expected, out, 0.01);
     }
+
+    @Test
+    public void when203to220then2() {
+        double expected = 3.6;
+        Point point1 = new Point(2, 0, 3);
+        Point point2 = new Point(2, 2, 0);
+        double out = point1.distance3d(point2);
+        Assert.assertEquals(expected, out, 0.01);
+    }
+
+    @Test
+    public void when130Minus96to583then99dp64() {
+        double expected = 99.64;
+        Point point1 = new Point(13, 0, -96);
+        Point point2 = new Point(5, 8, 3);
+        double out = point1.distance3d(point2);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
